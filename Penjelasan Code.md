@@ -2,9 +2,13 @@
 
 Kelas Mahasiswa:
 __init__(self, nama, nim, jurusan): Metode ini adalah konstruktor untuk kelas Mahasiswa. Itu menginisialisasi objek Mahasiswa dengan atribut nama, nim, dan jurusan.
+
 nama(self): Metode ini mengembalikan nilai dari atribut _nama (nama mahasiswa).
+
 nim(self): Metode ini mengembalikan nilai dari atribut _nim (NIM mahasiswa).
+
 jurusan(self): Metode ini mengembalikan nama jurusan dari objek mahasiswa dengan mengakses atribut nama_jurusan dari objek jurusan yang terkait.
+
 __str__(self): Metode ini mengembalikan representasi string dari objek Mahasiswa. Menampilkan nama, NIM, dan jurusan mahasiswa.
 
 Kelas Jurusan:
