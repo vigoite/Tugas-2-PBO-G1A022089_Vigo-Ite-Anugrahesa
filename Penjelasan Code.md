@@ -1,5 +1,6 @@
 # Tugas-2-PBO-G1A022089_Vigo-Ite-Anugrahesa
 
+
 Kelas Mahasiswa:
 
 __init__(self, nama, nim, jurusan): Metode ini adalah konstruktor untuk kelas Mahasiswa. Itu menginisialisasi objek Mahasiswa dengan atribut nama, nim, dan jurusan.
@@ -13,6 +14,7 @@ jurusan(self): Metode ini mengembalikan nama jurusan dari objek mahasiswa dengan
 __str__(self): Metode ini mengembalikan representasi string dari objek Mahasiswa. Menampilkan nama, NIM, dan jurusan mahasiswa.
 
 
+
 Kelas Jurusan:
 
 __init__(self, nama_jurusan): Metode ini adalah konstruktor untuk kelas Jurusan. Itu menginisialisasi objek Jurusan dengan atribut nama_jurusan dan daftar_mahasiswa yang awalnya kosong.
@@ -24,6 +26,7 @@ daftar_mahasiswa(self): Metode ini mengembalikan daftar mahasiswa yang terdaftar
 tambah_mahasiswa(self, mahasiswa): Metode ini digunakan untuk menambahkan objek Mahasiswa ke dalam daftar mahasiswa jurusan ini.
 
 __str__(self): Metode ini mengembalikan representasi string dari objek Jurusan. Jika ada mahasiswa terdaftar, metode ini akan menampilkan daftar mahasiswa yang terdaftar dalam jurusan ini. Jika tidak ada mahasiswa, akan ditampilkan pesan yang sesuai.
+
 
 Kelas Universitas:
 
